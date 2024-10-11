@@ -55,6 +55,28 @@
           }
         }
       },
+      "DotNetOpenAuth.Core/4.3.4.13329": {
+        "dependencies": {
+          "Microsoft.Net.Http": "2.0.20505"
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.Core.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.4.13329"
+          }
+        }
+      },
+      "DotNetOpenAuth.OpenId.Core/4.3.4.13329": {
+        "dependencies": {
+          "DotNetOpenAuth.Core": "4.3.4.13329"
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.OpenId.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.4.13329"
+          }
+        }
+      },
       "Humanizer/2.14.1": {
         "dependencies": {
           "Humanizer.Core.af": "2.14.1",
@@ -1508,6 +1530,14 @@
           }
         }
       },
+      "Microsoft.Net.Http/2.0.20505": {
+        "runtime": {
+          "lib/net40/System.Net.Http.WebRequest.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Microsoft.NET.StringTools/17.8.3": {
         "runtime": {
           "lib/net8.0/Microsoft.NET.StringTools.dll": {
@@ -2159,6 +2189,7 @@
       },
       "Hospital.Models/1.0.0": {
         "dependencies": {
+          "DotNetOpenAuth.OpenId.Core": "4.3.4.13329",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10"
         },
@@ -2218,6 +2249,20 @@
       "sha512": "sha512-l1Xm2MWOF2Mzcwuarlw8kWQXLZk3UeB55aQXVyjj23aBfDwOZ3gu5GP2kJ6KlmZeZv2TCzw7x4L3V36iNr3gww==",
       "path": "azure.identity/1.10.3",
       "hashPath": "azure.identity.1.10.3.nupkg.sha512"
+    },
+    "DotNetOpenAuth.Core/4.3.4.13329": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sgTuUWHv5tn1weh8jLqXytGQKWpebhk+D4e/RTNNH21eqCEs/ch+x7YxQxzp2u70DO1Hvcjb6dTDj2rO3grgxA==",
+      "path": "dotnetopenauth.core/4.3.4.13329",
+      "hashPath": "dotnetopenauth.core.4.3.4.13329.nupkg.sha512"
+    },
+    "DotNetOpenAuth.OpenId.Core/4.3.4.13329": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r8XKTJ6c+YvOOQcTLMgjWsfAkNxgxp8QVsP6pRXrg1Onp5TpzNZ9ULVzKkyRRipmC0fEGitydRnjKRDD2QxLtg==",
+      "path": "dotnetopenauth.openid.core/4.3.4.13329",
+      "hashPath": "dotnetopenauth.openid.core.4.3.4.13329.nupkg.sha512"
     },
     "Humanizer/2.14.1": {
       "type": "package",
@@ -2960,6 +3005,13 @@
       "sha512": "sha512-RN7lvp7s3Boucg1NaNAbqDbxtlLj5Qeb+4uSS1TeK5FSBVM40P4DKaTKChT43sHyKfh7V0zkrMph6DdHvyA4bg==",
       "path": "microsoft.identitymodel.tokens/6.35.0",
       "hashPath": "microsoft.identitymodel.tokens.6.35.0.nupkg.sha512"
+    },
+    "Microsoft.Net.Http/2.0.20505": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XRsKQP2XEd/DGLerVsU+T2pKQGTFc9ctWsIVbRblL/y+jT/BUo28aJ5mWN40oAeUwwbpXshAc8uO/LRscWav9A==",
+      "path": "microsoft.net.http/2.0.20505",
+      "hashPath": "microsoft.net.http.2.0.20505.nupkg.sha512"
     },
     "Microsoft.NET.StringTools/17.8.3": {
       "type": "package",

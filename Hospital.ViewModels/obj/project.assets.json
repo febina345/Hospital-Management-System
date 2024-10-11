@@ -46,6 +46,38 @@
           }
         }
       },
+      "DotNetOpenAuth.Core/4.3.4.13329": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Net.Http": "(, )"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetOpenAuth.OpenId.Core/4.3.4.13329": {
+        "type": "package",
+        "dependencies": {
+          "DotNetOpenAuth.Core": "[4.3.4.13329]"
+        },
+        "compile": {
+          "lib/net45-full/DotNetOpenAuth.OpenId.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45-full/DotNetOpenAuth.OpenId.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -903,6 +935,25 @@
           }
         }
       },
+      "Microsoft.Net.Http/2.0.20505": {
+        "type": "package",
+        "compile": {
+          "lib/net40/System.Net.Http.WebRequest.dll": {
+            "related": ".xml"
+          },
+          "lib/net40/System.Net.Http.dll": {
+            "related": ".WebRequest.xml;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/System.Net.Http.WebRequest.dll": {
+            "related": ".xml"
+          },
+          "lib/net40/System.Net.Http.dll": {
+            "related": ".WebRequest.xml;.xml"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -1577,6 +1628,21 @@
             "rid": "win"
           }
         }
+      },
+      "Hospital.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DotNetOpenAuth.OpenId.Core": "4.3.4.13329",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10"
+        },
+        "compile": {
+          "bin/placeholder/Hospital.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hospital.Models.dll": {}
+        }
       }
     }
   },
@@ -1621,6 +1687,56 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "DotNetOpenAuth.Core/4.3.4.13329": {
+      "sha512": "sgTuUWHv5tn1weh8jLqXytGQKWpebhk+D4e/RTNNH21eqCEs/ch+x7YxQxzp2u70DO1Hvcjb6dTDj2rO3grgxA==",
+      "type": "package",
+      "path": "dotnetopenauth.core/4.3.4.13329",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/web.config.transform",
+        "dotnetopenauth.core.4.3.4.13329.nupkg.sha512",
+        "dotnetopenauth.core.nuspec",
+        "lib/net35-full/DotNetOpenAuth.Core.dll",
+        "lib/net35-full/DotNetOpenAuth.Core.xml",
+        "lib/net40-full/DotNetOpenAuth.Core.dll",
+        "lib/net40-full/DotNetOpenAuth.Core.xml",
+        "lib/net45-full/DotNetOpenAuth.Core.dll",
+        "lib/net45-full/DotNetOpenAuth.Core.xml"
+      ]
+    },
+    "DotNetOpenAuth.OpenId.Core/4.3.4.13329": {
+      "sha512": "r8XKTJ6c+YvOOQcTLMgjWsfAkNxgxp8QVsP6pRXrg1Onp5TpzNZ9ULVzKkyRRipmC0fEGitydRnjKRDD2QxLtg==",
+      "type": "package",
+      "path": "dotnetopenauth.openid.core/4.3.4.13329",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/net35-full/web.config.transform",
+        "content/net40-full/web.config.transform",
+        "content/net45-full/web.config.transform",
+        "dotnetopenauth.openid.core.4.3.4.13329.nupkg.sha512",
+        "dotnetopenauth.openid.core.nuspec",
+        "lib/net35-full/DotNetOpenAuth.OpenId.dll",
+        "lib/net35-full/DotNetOpenAuth.OpenId.xml",
+        "lib/net35-full/Mono.Math.dll",
+        "lib/net35-full/Mono.Math.xml",
+        "lib/net35-full/Org.Mentalis.Security.Cryptography.dll",
+        "lib/net35-full/Org.Mentalis.Security.Cryptography.xml",
+        "lib/net40-full/DotNetOpenAuth.OpenId.dll",
+        "lib/net40-full/DotNetOpenAuth.OpenId.xml",
+        "lib/net40-full/Mono.Math.dll",
+        "lib/net40-full/Mono.Math.xml",
+        "lib/net40-full/Org.Mentalis.Security.Cryptography.dll",
+        "lib/net40-full/Org.Mentalis.Security.Cryptography.xml",
+        "lib/net45-full/DotNetOpenAuth.OpenId.dll",
+        "lib/net45-full/DotNetOpenAuth.OpenId.xml",
+        "lib/net45-full/Mono.Math.dll",
+        "lib/net45-full/Mono.Math.xml",
+        "lib/net45-full/Org.Mentalis.Security.Cryptography.dll",
+        "lib/net45-full/Org.Mentalis.Security.Cryptography.xml"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -3000,6 +3116,21 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
+    "Microsoft.Net.Http/2.0.20505": {
+      "sha512": "XRsKQP2XEd/DGLerVsU+T2pKQGTFc9ctWsIVbRblL/y+jT/BUo28aJ5mWN40oAeUwwbpXshAc8uO/LRscWav9A==",
+      "type": "package",
+      "path": "microsoft.net.http/2.0.20505",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/System.Net.Http.WebRequest.dll",
+        "lib/net40/System.Net.Http.WebRequest.xml",
+        "lib/net40/System.Net.Http.dll",
+        "lib/net40/System.Net.Http.xml",
+        "microsoft.net.http.2.0.20505.nupkg.sha512",
+        "microsoft.net.http.nuspec"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -4203,10 +4334,16 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Hospital.Models/1.0.0": {
+      "type": "project",
+      "path": "../Hospital.Models/Hospital.Models.csproj",
+      "msbuildProject": "../Hospital.Models/Hospital.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Hospital.Models >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.10"
@@ -4239,7 +4376,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\share\\source\\repos\\Hospital\\Hospital.Models\\Hospital.Models.csproj": {
+              "projectPath": "C:\\Users\\share\\source\\repos\\Hospital\\Hospital.Models\\Hospital.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -4291,5 +4432,47 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "DotNetOpenAuth.Core 4.3.4.13329 does not provide an inclusive lower bound for dependency Microsoft.Net.Http. An approximate best match of Microsoft.Net.Http 2.0.20505 was resolved.",
+      "libraryId": "Microsoft.Net.Http",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.Core 4.3.4.13329' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.Core",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetOpenAuth.OpenId.Core 4.3.4.13329' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetOpenAuth.OpenId.Core",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Net.Http 2.0.20505' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Net.Http",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

@@ -295,3 +295,7 @@ C:\Users\share\source\repos\Hospital\Hospital.Web\bin\Debug\net8.0\Hospital.Mode
 C:\Users\share\source\repos\Hospital\Hospital.Web\bin\Debug\net8.0\Hospital.Models.pdb
 C:\Users\share\source\repos\Hospital\Hospital.Web\bin\Debug\net8.0\Hospital.Utilities.dll
 C:\Users\share\source\repos\Hospital\Hospital.Web\bin\Debug\net8.0\Hospital.Utilities.pdb
+C:\Users\share\source\repos\Hospital\Hospital.Web\bin\Debug\net8.0\DotNetOpenAuth.Core.dll
+C:\Users\share\source\repos\Hospital\Hospital.Web\bin\Debug\net8.0\DotNetOpenAuth.OpenId.dll
+C:\Users\share\source\repos\Hospital\Hospital.Web\bin\Debug\net8.0\System.Net.Http.WebRequest.dll
+C:\Users\share\source\repos\Hospital\Hospital.Web\obj\Debug\net8.0\Hospital.Web.sourcelink.json

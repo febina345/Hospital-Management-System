@@ -10,7 +10,9 @@ namespace Hospital.Models
     {
         public int Id { get; set; }
         public string Diagnose { get; set; }
+        public string DoctorId { get; set; } // Foreign key for Doctor
         public ApplicationUser Doctor { get; set; }
+        public string PatientId { get; set; } // Foreign key for Patient
         public ApplicationUser Patient { get; set; }
         public ICollection<PrescribedMedicine> PrescribedMedicines { get; set; }
     }

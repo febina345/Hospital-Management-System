@@ -12,3 +12,4 @@ C:\Users\share\source\repos\Hospital\Hospital.Models\obj\Debug\net8.0\refint\Hos
 C:\Users\share\source\repos\Hospital\Hospital.Models\obj\Debug\net8.0\Hospital.Models.pdb
 C:\Users\share\source\repos\Hospital\Hospital.Models\obj\Debug\net8.0\Hospital.Models.genruntimeconfig.cache
 C:\Users\share\source\repos\Hospital\Hospital.Models\obj\Debug\net8.0\ref\Hospital.Models.dll
+C:\Users\share\source\repos\Hospital\Hospital.Models\obj\Debug\net8.0\Hospital.Models.sourcelink.json

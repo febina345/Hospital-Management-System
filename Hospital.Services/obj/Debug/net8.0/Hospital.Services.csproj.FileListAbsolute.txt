@@ -12,3 +12,13 @@ C:\Users\share\source\repos\Hospital\Hospital.Services\obj\Debug\net8.0\refint\H
 C:\Users\share\source\repos\Hospital\Hospital.Services\obj\Debug\net8.0\Hospital.Services.pdb
 C:\Users\share\source\repos\Hospital\Hospital.Services\obj\Debug\net8.0\Hospital.Services.genruntimeconfig.cache
 C:\Users\share\source\repos\Hospital\Hospital.Services\obj\Debug\net8.0\ref\Hospital.Services.dll
+C:\Users\share\source\repos\Hospital\Hospital.Services\bin\Debug\net8.0\Hospital.Models.dll
+C:\Users\share\source\repos\Hospital\Hospital.Services\bin\Debug\net8.0\Hospital.Repositories.dll
+C:\Users\share\source\repos\Hospital\Hospital.Services\bin\Debug\net8.0\Hospital.Utilities.dll
+C:\Users\share\source\repos\Hospital\Hospital.Services\bin\Debug\net8.0\Hospital.ViewModels.dll
+C:\Users\share\source\repos\Hospital\Hospital.Services\bin\Debug\net8.0\Hospital.Utilities.pdb
+C:\Users\share\source\repos\Hospital\Hospital.Services\bin\Debug\net8.0\Hospital.ViewModels.pdb
+C:\Users\share\source\repos\Hospital\Hospital.Services\bin\Debug\net8.0\Hospital.Models.pdb
+C:\Users\share\source\repos\Hospital\Hospital.Services\bin\Debug\net8.0\Hospital.Repositories.pdb
+C:\Users\share\source\repos\Hospital\Hospital.Services\obj\Debug\net8.0\Hospital.Services.sourcelink.json
+C:\Users\share\source\repos\Hospital\Hospital.Services\obj\Debug\net8.0\Hospital.18A9D8D9.Up2Date

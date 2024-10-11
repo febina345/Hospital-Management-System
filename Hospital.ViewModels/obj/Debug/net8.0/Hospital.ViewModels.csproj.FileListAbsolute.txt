@@ -12,3 +12,7 @@ C:\Users\share\source\repos\Hospital\Hospital.ViewModels\obj\Debug\net8.0\refint
 C:\Users\share\source\repos\Hospital\Hospital.ViewModels\obj\Debug\net8.0\Hospital.ViewModels.pdb
 C:\Users\share\source\repos\Hospital\Hospital.ViewModels\obj\Debug\net8.0\Hospital.ViewModels.genruntimeconfig.cache
 C:\Users\share\source\repos\Hospital\Hospital.ViewModels\obj\Debug\net8.0\ref\Hospital.ViewModels.dll
+C:\Users\share\source\repos\Hospital\Hospital.ViewModels\bin\Debug\net8.0\Hospital.Models.dll
+C:\Users\share\source\repos\Hospital\Hospital.ViewModels\bin\Debug\net8.0\Hospital.Models.pdb
+C:\Users\share\source\repos\Hospital\Hospital.ViewModels\obj\Debug\net8.0\Hospital.ViewModels.sourcelink.json
+C:\Users\share\source\repos\Hospital\Hospital.ViewModels\obj\Debug\net8.0\Hospital.62AB27C3.Up2Date

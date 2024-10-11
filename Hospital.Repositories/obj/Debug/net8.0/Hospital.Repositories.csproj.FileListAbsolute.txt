@@ -15,3 +15,4 @@ C:\Users\share\source\repos\Hospital\Hospital.Repositories\obj\Debug\net8.0\ref\
 C:\Users\share\source\repos\Hospital\Hospital.Repositories\bin\Debug\net8.0\Hospital.Models.dll
 C:\Users\share\source\repos\Hospital\Hospital.Repositories\bin\Debug\net8.0\Hospital.Models.pdb
 C:\Users\share\source\repos\Hospital\Hospital.Repositories\obj\Debug\net8.0\Hospital.043409E1.Up2Date
+C:\Users\share\source\repos\Hospital\Hospital.Repositories\obj\Debug\net8.0\Hospital.Repositories.sourcelink.json
